@@ -1,0 +1,82 @@
+*{
+    font-size: 16px;
+}
+#inicio{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #696158;
+    font-weight: bold;
+}
+#cabecera{
+    text-align: center;
+    background-color: #FFFFFF;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+#cabecera2{
+    padding: 10px;
+    text-align: center;
+    background-color: #f0bfeb;
+}
+#linkMenu{
+    padding: 20px;
+    transition: 0.4s;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#checkbox1{
+    padding-left: 30px;
+}
+#filtro{
+    text-align: left;
+}
+#inputFiltro{
+    padding: 10px;
+}
+#botonFiltrar{
+    text-align: right;
+    padding-top: 5px;
+}
+#cuadro1{
+    text-align: center;
+    padding: 20px;
+    padding-top: 100px;
+    transition: transform .2s;
+}
+#cuadro2{
+    text-align: center;
+    padding: 20px;
+    transition: transform .2s;
+}
+#cuadro1:hover{
+    transform: scale(1.1); 
+}
+#cuadro2:hover{
+    transform: scale(1.1); 
+}
+#imgProducto{
+    background-color: aliceblue; 
+    border-style: solid;
+    border-width: 1px;
+    border-color: antiquewhite;
+}
+#precio{
+    font-weight: bolder;
+}
+.button {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #f0bfeb;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    width: 230px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
