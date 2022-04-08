@@ -1,0 +1,198 @@
+
+@media (max-width:1080px){
+
+    #textoProducto{
+        margin-left: 15px;
+    }
+    #textoPrecio{
+        margin: -50px;
+    }
+    #precioProducto{
+        margin: -55px;
+    }
+    #resumenPedido{
+        margin-top: 80%;
+    }
+
+}
+/*AQUI TERMINAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+li{
+    list-style-type: none;
+    display: inline;
+}
+#cabecera{
+    height: 300px;
+    background-color: #f6f4f2;
+}
+#iconos{
+    text-align: center;
+    padding-top: 30px;
+}
+#icono2{
+    padding-left: 70px;
+}
+#icono3{
+    padding-left: 70px;
+}
+#circulos{
+    text-align: center;
+}
+#circulo2{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#entrega{
+    padding-left: 50px;
+    padding-right: 55px;
+}
+#textoCabecera{
+    text-align: center;
+}
+#textoCarro{
+    font-size: 20px;
+}
+#textoPrecio{
+    padding-left: 23%;
+}
+#textoCantidad{
+    padding-left: 23%;
+}
+
+#textoSubtotal{
+    padding-left: 23%;
+}
+#precioProducto{
+    padding-left: 20%;
+    font-weight: bolder
+}
+#cantidadProducto{
+    padding-left: 22%;
+}
+
+#subtotalProducto{
+    padding-left: 25%;
+    font-weight: bolder
+}
+#inputCantidad{
+    width: 50px;
+}
+.button {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #e4a6de;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    width: 150px;
+    height: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+#descuento{
+    margin-top: 50px;
+}
+#finalizarCompra{
+    height: 200px;
+    width: 300px;
+
+}
+#compraFinal{
+    background-color: #f6f4f2;
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+}
+#resumenPedido{
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 35px;
+}
+#precioSubtotal{
+    margin-left: 50px;
+    font-weight: bold;
+}
+#precioTotal{
+    margin-left: 75px;
+    font-weight: bold;
+}
+#descuento{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+#sCliente{
+    text-decoration-line: none;
+
+}
+#sCliente:hover{
+    font-weight: bold;
+    color: black;
+
+}
+#botonCompra{
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #e4a6de;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    width: 340px;
+    height: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  #botonCompra span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  #botonCompra span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #botonCompra:hover span {
+    padding-right: 25px;
+  }
+  
+  #botonCompra:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
