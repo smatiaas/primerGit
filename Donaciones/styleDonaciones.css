@@ -1,0 +1,75 @@
+#cabecera{
+    background-color: lightblue;
+    width: 100%;
+}
+#grupoLista{
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+  }  
+  li{
+    display: inline;
+    padding: 20px;
+  }
+  #menuItem{
+    text-decoration: none;
+    font-weight: bolder;
+}
+#menuItem:hover{
+    background-color: lightcyan;
+    color: black;
+}
+
+  #cuadroDonacion{
+      background-color: aliceblue;
+      border-top: 1px;
+      border-bottom: 0px;
+      border-left: 0px;
+      border-right: 0px;
+      border-style: solid;
+
+  }
+  #infoDonar{
+      height: 200px;
+      width: 100%;
+  }
+  #comoDonar{
+      padding-top: 50px;
+      text-align: center;
+      font-weight: bolder
+  }
+  #infoDonacion{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 3%;
+  }
+  .button1 {
+    background-color: aliceblue; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  #botonDonar{
+      text-align: center;
+      padding-bottom: 50px;
+  }
+  .mySlides{
+      display:none;
+    }
